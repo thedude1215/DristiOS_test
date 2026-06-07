@@ -1,4 +1,4 @@
-# Accessible Browser for Blind Users - TreeHacks 2026
+# Accessible Browser for Blind Users - KodeDristi 2026 Hackathon Project 
 
 > A voice-first, always-on-top desktop overlay that transforms the entire computer into a task-oriented interface for blind users.
 

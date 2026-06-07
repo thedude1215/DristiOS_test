@@ -217,37 +217,37 @@ export function VoiceAgent() {
   }, [isConnected, isListening, isSupported, showError, startListening, stopListening, initAudio]);
 
   return (
-    <div style={{ 
-      width: '700px', 
-      height: '350px', 
-      display: 'flex', 
+    <div style={{
+      width: '700px',
+      height: '350px',
+      display: 'flex',
       flexDirection: 'column',
       position: 'relative',
       background: 'transparent',
       overflow: 'hidden',
     }}>
       {/* Title - top left */}
-      <div style={{ 
+      <div style={{
         position: 'absolute',
         top: '16px',
         left: '16px',
         zIndex: 20,
         pointerEvents: 'none'
       }}>
-        <span style={{ 
-          color: 'rgba(255, 255, 255, 0.5)', 
-          fontSize: '13px', 
+        <span style={{
+          color: 'rgba(255, 255, 255, 0.5)',
+          fontSize: '13px',
           fontWeight: '500',
           letterSpacing: '-0.4px',
           fontFamily: '"SF Pro Rounded", "SF Pro Display", "SF Pro Text", -apple-system, BlinkMacSystemFont, system-ui, sans-serif',
           textShadow: '0 1px 3px rgba(0,0,0,0.5)'
         }}>
-        VisionOS
+          DristiOS
         </span>
       </div>
 
       {/* Status dot - top right */}
-      <div style={{ 
+      <div style={{
         position: 'absolute',
         top: '16px',
         right: '16px',
@@ -264,9 +264,9 @@ export function VoiceAgent() {
       </div>
 
       {/* Draggable area - top bar */}
-      <div 
+      <div
         className="drag-region"
-        style={{ 
+        style={{
           position: 'absolute',
           top: 0,
           left: 0,
@@ -279,9 +279,9 @@ export function VoiceAgent() {
       />
 
       {/* Content area */}
-      <div 
+      <div
         ref={scrollRef}
-        style={{ 
+        style={{
           position: 'absolute',
           top: '45px',
           left: 0,
@@ -295,13 +295,13 @@ export function VoiceAgent() {
           overflowY: 'auto',
           overflowX: 'hidden',
           zIndex: 5,
-        }} 
+        }}
         className="custom-scrollbar"
       >
 
         {/* Live speech */}
         {interimTranscript ? (
-          <div style={{ 
+          <div style={{
             textAlign: 'center',
             color: 'white',
             fontSize: '20px',
@@ -317,7 +317,7 @@ export function VoiceAgent() {
           </div>
         ) : entries.length === 0 && !streamingText ? (
           /* Greeting when no conversation yet */
-          <div style={{ 
+          <div style={{
             textAlign: 'center',
             color: 'white',
             fontSize: '28px',
@@ -327,13 +327,13 @@ export function VoiceAgent() {
             alignSelf: 'center',
             fontFamily: '"SF Pro Rounded", "SF Pro Display", -apple-system, BlinkMacSystemFont, system-ui, sans-serif',
           }}>
-            Hello, Jordan.
+            Hello, Arnav.
           </div>
         ) : (
           /* Chat log */
-          <div style={{ 
-            display: 'flex', 
-            flexDirection: 'column', 
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
             gap: '6px',
             width: '100%',
           }}>
@@ -364,8 +364,8 @@ export function VoiceAgent() {
                     borderRadius: '12px',
                     fontSize: '13px',
                     color: entry.role === 'user' ? 'rgba(255,255,255,0.7)' : 'rgba(255,255,255,0.9)',
-                    background: entry.role === 'user' 
-                      ? 'rgba(255, 255, 255, 0.08)' 
+                    background: entry.role === 'user'
+                      ? 'rgba(255, 255, 255, 0.08)'
                       : 'rgba(255, 255, 255, 0.12)',
                     lineHeight: '1.5',
                     maxWidth: '80%',
@@ -393,10 +393,10 @@ export function VoiceAgent() {
                   fontWeight: '400',
                 }}>
                   {streamingText}
-                  <span style={{ 
-                    display: 'inline-block', 
-                    width: '2px', 
-                    height: '14px', 
+                  <span style={{
+                    display: 'inline-block',
+                    width: '2px',
+                    height: '14px',
                     background: 'white',
                     marginLeft: '4px',
                     verticalAlign: 'middle',
