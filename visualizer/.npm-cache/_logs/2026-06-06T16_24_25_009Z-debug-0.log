@@ -1,0 +1,700 @@
+0 verbose cli /opt/homebrew/Cellar/node@24/24.16.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/opt/homebrew/Cellar/node@24/24.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/arnav/Documents/DristiOS-main/visualizer/.npmrc
+5 silly config load:file:/Users/arnav/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_24_25_009Z-
+10 verbose logfile /Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_24_25_009Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ENOTFOUND
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/axios'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/fflate'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/follow-redirects'
+17 silly reify ]
+18 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/joi' ]
+19 silly reify mark retired [
+19 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/lodash'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/meshoptimizer'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/postcss'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/proxy-from-env'
+22 silly reify ]
+23 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/pump' ]
+24 silly reify mark retired [
+24 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react-dom'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/rollup'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/three'
+27 silly reify ]
+28 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/vite' ]
+29 silly reify mark retired [
+29 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/helper-plugin-utils'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-self'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-source'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/tlds'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/rollup-darwin-arm64'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/stats.js'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/three'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/webxr'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/baseline-browser-mapping',
+37 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/baseline-browser-mapping'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/browserslist',
+38 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/browserslist'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/cross-env',
+39 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/cross-env',
+39 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/cross-env-shell'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/concurrently',
+40 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/concurrently',
+40 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/conc'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/electron',
+41 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/electron'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/esbuild',
+42 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/esbuild'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/extract-zip',
+43 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/extract-zip'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver',
+44 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.bin/semver'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/jsesc',
+45 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/jsesc'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json5',
+46 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/json5'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/nanoid',
+47 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/nanoid'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver',
+48 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/semver'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/tree-kill',
+49 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tree-kill'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/update-browserslist-db',
+50 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/update-browserslist-db'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/typescript',
+51 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tsc',
+51 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tsserver'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/wait-on',
+52 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/wait-on'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/which',
+53 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/node-which'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/parser',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/parser'
+54 silly reify ]
+55 silly reify moves {
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/axios': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.axios-zzJq53oL',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/fflate': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.fflate-nZx7Ue10',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/follow-redirects': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.follow-redirects-ZATPJ3Y5',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/joi': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.joi-sYmUdt2j',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/lodash': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.lodash-6pVHZHMG',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/meshoptimizer': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.meshoptimizer-YyRfmlKw',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/postcss': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.postcss-JB332BKX',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/proxy-from-env': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.proxy-from-env-4SU4ejiW',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/pump': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.pump-AarM4quN',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.react-pjDFnDY3',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react-dom': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.react-dom-jLcQenbo',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/rollup': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.rollup-uc9YZlAq',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/three': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.three-GaSLrLsj',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/vite': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.vite-j0V29f2U',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/helper-plugin-utils': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.helper-plugin-utils-kCtu4ky9',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-self': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.plugin-transform-react-jsx-self-DMNhL6AP',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-source': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.plugin-transform-react-jsx-source-61JimyYS',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/tlds': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/.tlds-qRFiniWm',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/rollup-darwin-arm64': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/.rollup-darwin-arm64-frhDEXQR',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/stats.js': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.stats.js-RqrgQXcw',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/three': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.three-6QsZWhUr',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/webxr': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.webxr-SXhuNrlC',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/baseline-browser-mapping': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.baseline-browser-mapping-nCBnJaH1',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/baseline-browser-mapping': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.baseline-browser-mapping-EDoDeA9e',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/browserslist': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.browserslist-cgfZnJcg',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/browserslist': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.browserslist-HzGVelRI',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/cross-env': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.cross-env-Z7AnYPP6',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/cross-env': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.cross-env-cwksS7Ys',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/cross-env-shell': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.cross-env-shell-nAN98rFH',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/concurrently': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.concurrently-YcIDOhMd',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/concurrently': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.concurrently-WmbEc49i',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/conc': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.conc-yC9SjDF0',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/electron': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.electron-ThAtrKOW',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/electron': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.electron-RVA19Q0R',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/esbuild': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.esbuild-97RAeCv1',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/esbuild': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.esbuild-CW1MjNTC',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/extract-zip': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.extract-zip-e0INwwFA',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/extract-zip': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.extract-zip-WCfOnoJp',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.semver-heHBjDkZ',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.bin/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.bin/.semver-W7CDWZIi',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/jsesc': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.jsesc-TcLdl7fF',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/jsesc': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.jsesc-AQXCD988',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json5': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.json5-zYBiQSxB',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/json5': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.json5-JQI4vbZj',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/nanoid': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.nanoid-UAdmNqnw',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/nanoid': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.nanoid-vp4pAnNI',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.semver-jIHrNkk1',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.semver-KzkbmW6X',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/tree-kill': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.tree-kill-ohFKP3dP',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tree-kill': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.tree-kill-TBZSro0Z',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/update-browserslist-db': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.update-browserslist-db-ZNHoUCaO',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/update-browserslist-db': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.update-browserslist-db-5Ls60znw',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/typescript': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.typescript-dsINhIdj',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tsc': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.tsc-OgMU7Bay',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/tsserver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.tsserver-ZaQxfe0H',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/wait-on': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.wait-on-qsBfuMqo',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/wait-on': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.wait-on-1LiwkvM3',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/which': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.which-fF14XAqs',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/node-which': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.node-which-YjA5avD4',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/parser': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.parser-ULUirUJP',
+55 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/parser': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.bin/.parser-JswAyamL'
+55 silly reify }
+56 silly audit bulk request {
+56 silly audit   '@babel/code-frame': [ '7.29.0' ],
+56 silly audit   '@babel/compat-data': [ '7.29.0' ],
+56 silly audit   '@babel/core': [ '7.29.0' ],
+56 silly audit   '@babel/generator': [ '7.29.1' ],
+56 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+56 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+56 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+56 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+56 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+56 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+56 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+56 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+56 silly audit   '@babel/helpers': [ '7.28.6' ],
+56 silly audit   '@babel/parser': [ '7.29.0' ],
+56 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+56 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+56 silly audit   '@babel/template': [ '7.28.6' ],
+56 silly audit   '@babel/traverse': [ '7.29.0' ],
+56 silly audit   '@babel/types': [ '7.29.0' ],
+56 silly audit   '@electron/get': [ '2.0.3' ],
+56 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+56 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+56 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+56 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+56 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+56 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+56 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+56 silly audit   '@hapi/address': [ '5.1.1' ],
+56 silly audit   '@hapi/formula': [ '3.0.2' ],
+56 silly audit   '@hapi/hoek': [ '11.0.7' ],
+56 silly audit   '@hapi/pinpoint': [ '2.0.1' ],
+56 silly audit   '@hapi/tlds': [ '1.1.5' ],
+56 silly audit   '@hapi/topo': [ '6.0.2' ],
+56 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+56 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+56 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+56 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+56 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+56 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+56 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-android-arm64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-darwin-arm64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-darwin-x64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-freebsd-x64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-openbsd-x64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.57.1' ],
+56 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.57.1' ],
+56 silly audit   '@sindresorhus/is': [ '4.6.0' ],
+56 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+56 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+56 silly audit   '@szmarczak/http-timer': [ '4.0.6' ],
+56 silly audit   '@types/babel__core': [ '7.20.5' ],
+56 silly audit   '@types/babel__generator': [ '7.27.0' ],
+56 silly audit   '@types/babel__template': [ '7.4.4' ],
+56 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+56 silly audit   '@types/cacheable-request': [ '6.0.3' ],
+56 silly audit   '@types/estree': [ '1.0.8' ],
+56 silly audit   '@types/http-cache-semantics': [ '4.2.0' ],
+56 silly audit   '@types/keyv': [ '3.1.4' ],
+56 silly audit   '@types/node': [ '20.19.33' ],
+56 silly audit   '@types/react': [ '19.2.14' ],
+56 silly audit   '@types/react-dom': [ '19.2.3' ],
+56 silly audit   '@types/responselike': [ '1.0.3' ],
+56 silly audit   '@types/stats.js': [ '0.17.4' ],
+56 silly audit   '@types/three': [ '0.158.3' ],
+56 silly audit   '@types/webxr': [ '0.5.24' ],
+56 silly audit   '@types/yauzl': [ '2.10.3' ],
+56 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+56 silly audit   'ansi-regex': [ '5.0.1' ],
+56 silly audit   'ansi-styles': [ '4.3.0' ],
+56 silly audit   asynckit: [ '0.4.0' ],
+56 silly audit   axios: [ '1.13.5' ],
+56 silly audit   'baseline-browser-mapping': [ '2.9.19' ],
+56 silly audit   boolean: [ '3.2.0' ],
+56 silly audit   browserslist: [ '4.28.1' ],
+56 silly audit   'buffer-crc32': [ '0.2.13' ],
+56 silly audit   'cacheable-lookup': [ '5.0.4' ],
+56 silly audit   'cacheable-request': [ '7.0.4' ],
+56 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+56 silly audit   'caniuse-lite': [ '1.0.30001769' ],
+56 silly audit   chalk: [ '4.1.2' ],
+56 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+56 silly audit   cliui: [ '8.0.1' ],
+56 silly audit   'clone-response': [ '1.0.3' ],
+56 silly audit   'color-convert': [ '2.0.1' ],
+56 silly audit   'color-name': [ '1.1.4' ],
+56 silly audit   'combined-stream': [ '1.0.8' ],
+56 silly audit   concurrently: [ '9.2.1' ],
+56 silly audit   'convert-source-map': [ '2.0.0' ],
+56 silly audit   'cross-env': [ '7.0.3' ],
+56 silly audit   'cross-spawn': [ '7.0.6' ],
+56 silly audit   csstype: [ '3.2.3' ],
+56 silly audit   debug: [ '4.4.3' ],
+56 silly audit   'decompress-response': [ '6.0.0' ],
+56 silly audit   'mimic-response': [ '3.1.0', '1.0.1' ],
+56 silly audit   'defer-to-connect': [ '2.0.1' ],
+56 silly audit   'define-data-property': [ '1.1.4' ],
+56 silly audit   'define-properties': [ '1.2.1' ],
+56 silly audit   'delayed-stream': [ '1.0.0' ],
+56 silly audit   'detect-node': [ '2.1.0' ],
+56 silly audit   'dunder-proto': [ '1.0.1' ],
+56 silly audit   electron: [ '33.4.11' ],
+56 silly audit   'electron-to-chromium': [ '1.5.286' ],
+56 silly audit   'emoji-regex': [ '8.0.0' ],
+56 silly audit   'end-of-stream': [ '1.4.5' ],
+56 silly audit   'engine.io-client': [ '6.6.4' ],
+56 silly audit   'engine.io-parser': [ '5.2.3' ],
+56 silly audit   'env-paths': [ '2.2.1' ],
+56 silly audit   'es-define-property': [ '1.0.1' ],
+56 silly audit   'es-errors': [ '1.3.0' ],
+56 silly audit   'es-object-atoms': [ '1.1.1' ],
+56 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+56 silly audit   'es6-error': [ '4.1.1' ],
+56 silly audit   esbuild: [ '0.25.12' ],
+56 silly audit   escalade: [ '3.2.0' ],
+56 silly audit   'escape-string-regexp': [ '4.0.0' ],
+56 silly audit   'extract-zip': [ '2.0.1' ],
+56 silly audit   'fd-slicer': [ '1.1.0' ],
+56 silly audit   fdir: [ '6.5.0' ],
+56 silly audit   fflate: [ '0.6.10' ],
+56 silly audit   'follow-redirects': [ '1.15.11' ],
+56 silly audit   'form-data': [ '4.0.5' ],
+56 silly audit   'fs-extra': [ '8.1.0' ],
+56 silly audit   fsevents: [ '2.3.3' ],
+56 silly audit   'function-bind': [ '1.1.2' ],
+56 silly audit   gensync: [ '1.0.0-beta.2' ],
+56 silly audit   'get-caller-file': [ '2.0.5' ],
+56 silly audit   'get-intrinsic': [ '1.3.0' ],
+56 silly audit   'get-proto': [ '1.0.1' ],
+56 silly audit   'get-stream': [ '5.2.0' ],
+56 silly audit   'global-agent': [ '3.0.0' ],
+56 silly audit   semver: [ '7.7.4', '6.3.1' ],
+56 silly audit   globalthis: [ '1.0.4' ],
+56 silly audit   gopd: [ '1.2.0' ],
+56 silly audit   got: [ '11.8.6' ],
+56 silly audit   'graceful-fs': [ '4.2.11' ],
+56 silly audit   'has-flag': [ '4.0.0' ],
+56 silly audit   'has-property-descriptors': [ '1.0.2' ],
+56 silly audit   'has-symbols': [ '1.1.0' ],
+56 silly audit   'has-tostringtag': [ '1.0.2' ],
+56 silly audit   hasown: [ '2.0.2' ],
+56 silly audit   'http-cache-semantics': [ '4.2.0' ],
+56 silly audit   'http2-wrapper': [ '1.0.3' ],
+56 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+56 silly audit   isexe: [ '2.0.0' ],
+56 silly audit   joi: [ '18.0.2' ],
+56 silly audit   'js-tokens': [ '4.0.0' ],
+56 silly audit   jsesc: [ '3.1.0' ],
+56 silly audit   'json-buffer': [ '3.0.1' ],
+56 silly audit   'json-stringify-safe': [ '5.0.1' ],
+56 silly audit   json5: [ '2.2.3' ],
+56 silly audit   jsonfile: [ '4.0.0' ],
+56 silly audit   keyv: [ '4.5.4' ],
+56 silly audit   lodash: [ '4.17.23' ],
+56 silly audit   'lowercase-keys': [ '2.0.0' ],
+56 silly audit   'lru-cache': [ '5.1.1' ],
+56 silly audit   matcher: [ '3.0.0' ],
+56 silly audit   'math-intrinsics': [ '1.1.0' ],
+56 silly audit   meshoptimizer: [ '0.18.1' ],
+56 silly audit   'mime-db': [ '1.52.0' ],
+56 silly audit   'mime-types': [ '2.1.35' ],
+56 silly audit   minimist: [ '1.2.8' ],
+56 silly audit   ms: [ '2.1.3' ],
+56 silly audit   nanoid: [ '3.3.11' ],
+56 silly audit   'node-releases': [ '2.0.27' ],
+56 silly audit   'normalize-url': [ '6.1.0' ],
+56 silly audit   'object-keys': [ '1.1.1' ],
+56 silly audit   once: [ '1.4.0' ],
+56 silly audit   'p-cancelable': [ '2.1.1' ],
+56 silly audit   'path-key': [ '3.1.1' ],
+56 silly audit   pend: [ '1.2.0' ],
+56 silly audit   picocolors: [ '1.1.1' ],
+56 silly audit   picomatch: [ '4.0.3' ],
+56 silly audit   postcss: [ '8.5.6' ],
+56 silly audit   progress: [ '2.0.3' ],
+56 silly audit   'proxy-from-env': [ '1.1.0' ],
+56 silly audit   pump: [ '3.0.3' ],
+56 silly audit   'quick-lru': [ '5.1.1' ],
+56 silly audit   react: [ '19.2.4' ],
+56 silly audit   'react-dom': [ '19.2.4' ],
+56 silly audit   'react-refresh': [ '0.17.0' ],
+56 silly audit   'require-directory': [ '2.1.1' ],
+56 silly audit   'resolve-alpn': [ '1.2.1' ],
+56 silly audit   responselike: [ '2.0.1' ],
+56 silly audit   roarr: [ '2.15.4' ],
+56 silly audit   rollup: [ '4.57.1' ],
+56 silly audit   rxjs: [ '7.8.2' ],
+56 silly audit   scheduler: [ '0.27.0' ],
+56 silly audit   'semver-compare': [ '1.0.0' ],
+56 silly audit   'serialize-error': [ '7.0.1' ],
+56 silly audit   'shebang-command': [ '2.0.0' ],
+56 silly audit   'shebang-regex': [ '3.0.0' ],
+56 silly audit   'shell-quote': [ '1.8.3' ],
+56 silly audit   'socket.io-client': [ '4.8.3' ],
+56 silly audit   'socket.io-parser': [ '4.2.5' ],
+56 silly audit   'source-map-js': [ '1.2.1' ],
+56 silly audit   'sprintf-js': [ '1.1.3' ],
+56 silly audit   'string-width': [ '4.2.3' ],
+56 silly audit   'strip-ansi': [ '6.0.1' ],
+56 silly audit   sumchecker: [ '3.0.1' ],
+56 silly audit   three: [ '0.158.0' ],
+56 silly audit   tinyglobby: [ '0.2.15' ],
+56 silly audit   'tree-kill': [ '1.2.2' ],
+56 silly audit   tslib: [ '2.8.1' ],
+56 silly audit   'type-fest': [ '0.13.1' ],
+56 silly audit   typescript: [ '5.9.3' ],
+56 silly audit   'undici-types': [ '6.21.0' ],
+56 silly audit   universalify: [ '0.1.2' ],
+56 silly audit   'update-browserslist-db': [ '1.2.3' ],
+56 silly audit   vite: [ '6.4.1' ],
+56 silly audit   'wait-on': [ '8.0.5' ],
+56 silly audit   which: [ '2.0.2' ],
+56 silly audit   'wrap-ansi': [ '7.0.0' ],
+56 silly audit   wrappy: [ '1.0.2' ],
+56 silly audit   ws: [ '8.18.3' ],
+56 silly audit   'xmlhttprequest-ssl': [ '2.1.2' ],
+56 silly audit   y18n: [ '5.0.8' ],
+56 silly audit   yallist: [ '3.1.1' ],
+56 silly audit   yargs: [ '17.7.2' ],
+56 silly audit   'yargs-parser': [ '21.1.1' ],
+56 silly audit   yauzl: [ '2.10.0' ]
+56 silly audit }
+57 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+57 verbose audit error     at ClientRequest.<anonymous> (/opt/homebrew/Cellar/node@24/24.16.0/lib/node_modules/npm/node_modules/minipass-fetch/lib/index.js:130:14)
+57 verbose audit error     at ClientRequest.emit (node:events:509:28)
+57 verbose audit error     at emitErrorEvent (node:_http_client:109:11)
+57 verbose audit error     at _destroy (node:_http_client:993:9)
+57 verbose audit error     at onSocketNT (node:_http_client:1014:5)
+57 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+57 verbose audit error   code: 'ENOTFOUND',
+57 verbose audit error   errno: 'ENOTFOUND',
+57 verbose audit error   syscall: 'getaddrinfo',
+57 verbose audit error   hostname: 'registry.npmjs.org',
+57 verbose audit error   type: 'system'
+57 verbose audit error }
+58 silly audit error undefined
+59 silly audit report null
+60 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 0ms (cache hit)
+61 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+62 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+63 http cache tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 0ms (cache hit)
+64 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+65 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+66 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+67 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+68 http cache wait-on@https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz 0ms (cache hit)
+69 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+70 http cache electron@https://registry.npmjs.org/electron/-/electron-33.4.11.tgz 0ms (cache hit)
+71 http cache concurrently@https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz 0ms (cache hit)
+72 http cache cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 0ms (cache hit)
+73 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+74 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 0ms (cache hit)
+75 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz 0ms (cache hit)
+76 http cache @types/stats.js@https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz 0ms (cache hit)
+77 http cache @types/webxr@https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz 0ms (cache hit)
+78 http cache @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.57.1.tgz 0ms (cache hit)
+79 http cache @hapi/tlds@https://registry.npmjs.org/@hapi/tlds/-/tlds-1.1.5.tgz 0ms (cache hit)
+80 http cache @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz 0ms (cache hit)
+81 http cache @types/three@https://registry.npmjs.org/@types/three/-/three-0.158.3.tgz 0ms (cache hit)
+82 http cache @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz 0ms (cache hit)
+83 http cache extract-zip@https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz 0ms (cache hit)
+84 http cache vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 0ms (cache hit)
+85 http cache @babel/helper-plugin-utils@https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz 0ms (cache hit)
+86 http cache react@https://registry.npmjs.org/react/-/react-19.2.4.tgz 0ms (cache hit)
+87 http cache three@https://registry.npmjs.org/three/-/three-0.158.0.tgz 0ms (cache hit)
+88 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+89 http cache pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz 0ms (cache hit)
+90 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.57.1.tgz 0ms (cache hit)
+91 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 0ms (cache hit)
+92 http cache joi@https://registry.npmjs.org/joi/-/joi-18.0.2.tgz 0ms (cache hit)
+93 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz 0ms (cache hit)
+94 http cache meshoptimizer@https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz 0ms (cache hit)
+95 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 0ms (cache hit)
+96 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 0ms (cache hit)
+97 http cache fflate@https://registry.npmjs.org/fflate/-/fflate-0.6.10.tgz 0ms (cache hit)
+98 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz. Extracting by manifest.
+99 http cache axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz 0ms (cache hit)
+100 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+101 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+102 silly tarball no local data for tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz. Extracting by manifest.
+103 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+104 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+105 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+106 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+107 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+108 silly tarball no local data for wait-on@https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz. Extracting by manifest.
+109 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+110 silly tarball no local data for electron@https://registry.npmjs.org/electron/-/electron-33.4.11.tgz. Extracting by manifest.
+111 silly tarball no local data for concurrently@https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz. Extracting by manifest.
+112 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz. Extracting by manifest.
+113 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz. Extracting by manifest.
+114 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+115 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz. Extracting by manifest.
+116 silly tarball no local data for @types/stats.js@https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz. Extracting by manifest.
+117 silly tarball no local data for @types/webxr@https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz. Extracting by manifest.
+118 silly tarball no local data for @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.57.1.tgz. Extracting by manifest.
+119 silly tarball no local data for @hapi/tlds@https://registry.npmjs.org/@hapi/tlds/-/tlds-1.1.5.tgz. Extracting by manifest.
+120 silly tarball no local data for @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz. Extracting by manifest.
+121 silly tarball no local data for @types/three@https://registry.npmjs.org/@types/three/-/three-0.158.3.tgz. Extracting by manifest.
+122 silly tarball no local data for @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz. Extracting by manifest.
+123 silly tarball no local data for extract-zip@https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz. Extracting by manifest.
+124 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz. Extracting by manifest.
+125 silly tarball no local data for @babel/helper-plugin-utils@https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz. Extracting by manifest.
+126 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.4.tgz. Extracting by manifest.
+127 silly tarball no local data for three@https://registry.npmjs.org/three/-/three-0.158.0.tgz. Extracting by manifest.
+128 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+129 silly tarball no local data for pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz. Extracting by manifest.
+130 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.57.1.tgz. Extracting by manifest.
+131 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz. Extracting by manifest.
+132 silly tarball no local data for joi@https://registry.npmjs.org/joi/-/joi-18.0.2.tgz. Extracting by manifest.
+133 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz. Extracting by manifest.
+134 silly tarball no local data for meshoptimizer@https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz. Extracting by manifest.
+135 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+136 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz. Extracting by manifest.
+137 silly tarball no local data for fflate@https://registry.npmjs.org/fflate/-/fflate-0.6.10.tgz. Extracting by manifest.
+138 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz. Extracting by manifest.
+139 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+140 http fetch GET https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz attempt 1 failed with ENOTFOUND
+141 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 1 failed with ENOTFOUND
+142 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 1 failed with ENOTFOUND
+143 http fetch GET https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz attempt 1 failed with ENOTFOUND
+144 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 1 failed with ENOTFOUND
+145 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 1 failed with ENOTFOUND
+146 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 1 failed with ENOTFOUND
+147 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 1 failed with ENOTFOUND
+148 http fetch GET https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz attempt 1 failed with ENOTFOUND
+149 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 1 failed with ENOTFOUND
+150 http fetch GET https://registry.npmjs.org/electron/-/electron-33.4.11.tgz attempt 1 failed with ENOTFOUND
+151 http fetch GET https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz attempt 1 failed with ENOTFOUND
+152 http fetch GET https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz attempt 1 failed with ENOTFOUND
+153 http fetch GET https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz attempt 1 failed with ENOTFOUND
+154 http fetch GET https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz attempt 1 failed with ENOTFOUND
+155 http fetch GET https://registry.npmjs.org/semver/-/semver-7.7.4.tgz attempt 1 failed with ENOTFOUND
+156 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with ENOTFOUND
+157 http fetch GET https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz attempt 2 failed with ENOTFOUND
+158 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 2 failed with ENOTFOUND
+159 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 2 failed with ENOTFOUND
+160 http fetch GET https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz attempt 2 failed with ENOTFOUND
+161 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 2 failed with ENOTFOUND
+162 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 2 failed with ENOTFOUND
+163 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 2 failed with ENOTFOUND
+164 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 2 failed with ENOTFOUND
+165 http fetch GET https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz attempt 2 failed with ENOTFOUND
+166 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 2 failed with ENOTFOUND
+167 http fetch GET https://registry.npmjs.org/electron/-/electron-33.4.11.tgz attempt 2 failed with ENOTFOUND
+168 http fetch GET https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz attempt 2 failed with ENOTFOUND
+169 http fetch GET https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz attempt 2 failed with ENOTFOUND
+170 http fetch GET https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz attempt 2 failed with ENOTFOUND
+171 http fetch GET https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz attempt 2 failed with ENOTFOUND
+172 http fetch GET https://registry.npmjs.org/semver/-/semver-7.7.4.tgz attempt 2 failed with ENOTFOUND
+173 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with ENOTFOUND
+174 http fetch GET https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz attempt 3 failed with ENOTFOUND
+175 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 3 failed with ENOTFOUND
+176 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 3 failed with ENOTFOUND
+177 http fetch GET https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz attempt 3 failed with ENOTFOUND
+178 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 3 failed with ENOTFOUND
+179 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 3 failed with ENOTFOUND
+180 http fetch GET https://registry.npmjs.org/json5/-/json5-2.2.3.tgz attempt 3 failed with ENOTFOUND
+181 http fetch GET https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz attempt 3 failed with ENOTFOUND
+182 http fetch GET https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz attempt 3 failed with ENOTFOUND
+183 http fetch GET https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz attempt 3 failed with ENOTFOUND
+184 http fetch GET https://registry.npmjs.org/electron/-/electron-33.4.11.tgz attempt 3 failed with ENOTFOUND
+185 http fetch GET https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz attempt 3 failed with ENOTFOUND
+186 http fetch GET https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz attempt 3 failed with ENOTFOUND
+187 http fetch GET https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz attempt 3 failed with ENOTFOUND
+188 http fetch GET https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz attempt 3 failed with ENOTFOUND
+189 http fetch GET https://registry.npmjs.org/semver/-/semver-7.7.4.tgz attempt 3 failed with ENOTFOUND
+190 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver
+191 silly reify mark deleted [
+191 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver',
+191 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.bin/semver'
+191 silly reify ]
+192 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent
+193 silly reify mark deleted [
+193 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent'
+193 silly reify ]
+194 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/boolean
+195 silly reify mark deleted [
+195 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/boolean'
+195 silly reify ]
+196 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/es6-error
+197 silly reify mark deleted [
+197 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/es6-error'
+197 silly reify ]
+198 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/matcher
+199 silly reify mark deleted [
+199 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/matcher'
+199 silly reify ]
+200 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/roarr
+201 silly reify mark deleted [
+201 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/roarr'
+201 silly reify ]
+202 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/serialize-error
+203 silly reify mark deleted [
+203 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/serialize-error'
+203 silly reify ]
+204 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/escape-string-regexp
+205 silly reify mark deleted [
+205 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/escape-string-regexp'
+205 silly reify ]
+206 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/detect-node
+207 silly reify mark deleted [
+207 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/detect-node'
+207 silly reify ]
+208 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/globalthis
+209 silly reify mark deleted [
+209 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/globalthis'
+209 silly reify ]
+210 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json-stringify-safe
+211 silly reify mark deleted [
+211 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json-stringify-safe'
+211 silly reify ]
+212 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver-compare
+213 silly reify mark deleted [
+213 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver-compare'
+213 silly reify ]
+214 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/sprintf-js
+215 silly reify mark deleted [
+215 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/sprintf-js'
+215 silly reify ]
+216 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/type-fest
+217 silly reify mark deleted [
+217 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/type-fest'
+217 silly reify ]
+218 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/define-properties
+219 silly reify mark deleted [
+219 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/define-properties'
+219 silly reify ]
+220 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/define-data-property
+221 silly reify mark deleted [
+221 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/define-data-property'
+221 silly reify ]
+222 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/has-property-descriptors
+223 silly reify mark deleted [
+223 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/has-property-descriptors'
+223 silly reify ]
+224 verbose reify failed optional dependency /Users/arnav/Documents/DristiOS-main/visualizer/node_modules/object-keys
+225 silly reify mark deleted [
+225 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/object-keys'
+225 silly reify ]
+226 verbose cwd /Users/arnav/Documents/DristiOS-main/visualizer
+227 verbose os Darwin 25.2.0
+228 verbose node v24.16.0
+229 verbose npm  v11.13.0
+230 error Exit handler never called!
+231 error This is an error with npm itself. Please report this error at:
+232 error   <https://github.com/npm/cli/issues>
+233 verbose exit 1
+234 verbose code 1
+235 error A complete log of this run can be found in: /Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_24_25_009Z-debug-0.log

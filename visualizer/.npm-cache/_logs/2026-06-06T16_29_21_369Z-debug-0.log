@@ -1,0 +1,22 @@
+0 verbose cli /opt/homebrew/Cellar/node@24/24.16.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/opt/homebrew/Cellar/node@24/24.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/arnav/Documents/DristiOS-main/visualizer/.npmrc
+5 silly config load:file:/Users/arnav/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm rebuild electron
+8 verbose argv "rebuild" "electron" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_29_21_369Z-
+10 verbose logfile /Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_29_21_369Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 info run electron@33.4.11 postinstall node_modules/electron node install.js
+15 info run electron@33.4.11 postinstall { code: 0, signal: null }
+16 verbose cwd /Users/arnav/Documents/DristiOS-main/visualizer
+17 verbose os Darwin 25.2.0
+18 verbose node v24.16.0
+19 verbose npm  v11.13.0
+20 verbose exit 0
+21 info ok

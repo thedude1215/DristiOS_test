@@ -1,0 +1,1138 @@
+0 verbose cli /opt/homebrew/Cellar/node@24/24.16.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.13.0
+2 info using node@v24.16.0
+3 silly config load:file:/opt/homebrew/Cellar/node@24/24.16.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/arnav/Documents/DristiOS-main/visualizer/.npmrc
+5 silly config load:file:/Users/arnav/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_25_56_531Z-
+10 verbose logfile /Users/arnav/Documents/DristiOS-main/visualizer/.npm-cache/_logs/2026-06-06T16_25_56_531Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/axios'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/baseline-browser-mapping'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/browserslist'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/concurrently'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/cross-env'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/electron'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/esbuild'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/extract-zip'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/fflate'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/follow-redirects'
+23 silly reify ]
+24 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/joi' ]
+25 silly reify mark retired [
+25 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/jsesc'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json5'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/lodash'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/meshoptimizer'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/nanoid'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/postcss'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/proxy-from-env'
+31 silly reify ]
+32 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/pump' ]
+33 silly reify mark retired [
+33 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react-dom'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/rollup'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/three'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/tree-kill'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/typescript'
+39 silly reify ]
+40 silly reify mark retired [ '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/vite' ]
+41 silly reify mark retired [
+41 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/update-browserslist-db'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/wait-on'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/which'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/helper-plugin-utils'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/parser'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-self'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-source'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/tlds'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/rollup-darwin-arm64'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/stats.js'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/webxr'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/three'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver'
+53 silly reify ]
+54 silly reify moves {
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/axios': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.axios-zzJq53oL',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/baseline-browser-mapping': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.baseline-browser-mapping-nCBnJaH1',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/browserslist': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.browserslist-cgfZnJcg',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/concurrently': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.concurrently-YcIDOhMd',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/cross-env': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.cross-env-Z7AnYPP6',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/electron': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.electron-ThAtrKOW',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/esbuild': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.esbuild-97RAeCv1',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/extract-zip': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.extract-zip-e0INwwFA',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/fflate': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.fflate-nZx7Ue10',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/follow-redirects': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.follow-redirects-ZATPJ3Y5',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/joi': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.joi-sYmUdt2j',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/jsesc': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.jsesc-TcLdl7fF',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/json5': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.json5-zYBiQSxB',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/lodash': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.lodash-6pVHZHMG',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/meshoptimizer': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.meshoptimizer-YyRfmlKw',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/nanoid': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.nanoid-UAdmNqnw',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/postcss': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.postcss-JB332BKX',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/proxy-from-env': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.proxy-from-env-4SU4ejiW',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/pump': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.pump-AarM4quN',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.react-pjDFnDY3',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/react-dom': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.react-dom-jLcQenbo',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/rollup': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.rollup-uc9YZlAq',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.semver-jIHrNkk1',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/three': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.three-GaSLrLsj',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/tree-kill': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.tree-kill-ohFKP3dP',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/typescript': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.typescript-dsINhIdj',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/vite': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.vite-j0V29f2U',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/update-browserslist-db': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.update-browserslist-db-ZNHoUCaO',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/wait-on': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.wait-on-qsBfuMqo',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/which': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/.which-fF14XAqs',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/helper-plugin-utils': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.helper-plugin-utils-kCtu4ky9',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/parser': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.parser-ULUirUJP',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-self': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.plugin-transform-react-jsx-self-DMNhL6AP',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/plugin-transform-react-jsx-source': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@babel/.plugin-transform-react-jsx-source-61JimyYS',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/tlds': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@hapi/.tlds-qRFiniWm',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/rollup-darwin-arm64': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@rollup/.rollup-darwin-arm64-frhDEXQR',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/stats.js': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.stats.js-RqrgQXcw',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/webxr': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.webxr-SXhuNrlC',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/three': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/@types/.three-6QsZWhUr',
+54 silly reify   '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/semver': '/Users/arnav/Documents/DristiOS-main/visualizer/node_modules/global-agent/node_modules/.semver-heHBjDkZ'
+54 silly reify }
+55 silly audit bulk request {
+55 silly audit   '@babel/code-frame': [ '7.29.0' ],
+55 silly audit   '@babel/compat-data': [ '7.29.0' ],
+55 silly audit   '@babel/core': [ '7.29.0' ],
+55 silly audit   '@babel/generator': [ '7.29.1' ],
+55 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+55 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+55 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+55 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+55 silly audit   '@babel/helper-plugin-utils': [ '7.28.6' ],
+55 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+55 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+55 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+55 silly audit   '@babel/helpers': [ '7.28.6' ],
+55 silly audit   '@babel/parser': [ '7.29.0' ],
+55 silly audit   '@babel/plugin-transform-react-jsx-self': [ '7.27.1' ],
+55 silly audit   '@babel/plugin-transform-react-jsx-source': [ '7.27.1' ],
+55 silly audit   '@babel/template': [ '7.28.6' ],
+55 silly audit   '@babel/traverse': [ '7.29.0' ],
+55 silly audit   '@babel/types': [ '7.29.0' ],
+55 silly audit   '@electron/get': [ '2.0.3' ],
+55 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+55 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+55 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+55 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+55 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+55 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+55 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+55 silly audit   '@hapi/address': [ '5.1.1' ],
+55 silly audit   '@hapi/formula': [ '3.0.2' ],
+55 silly audit   '@hapi/hoek': [ '11.0.7' ],
+55 silly audit   '@hapi/pinpoint': [ '2.0.1' ],
+55 silly audit   '@hapi/tlds': [ '1.1.5' ],
+55 silly audit   '@hapi/topo': [ '6.0.2' ],
+55 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+55 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+55 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+55 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+55 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+55 silly audit   '@rolldown/pluginutils': [ '1.0.0-beta.27' ],
+55 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-android-arm64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-darwin-arm64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-darwin-x64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-freebsd-x64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-openbsd-x64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.57.1' ],
+55 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.57.1' ],
+55 silly audit   '@sindresorhus/is': [ '4.6.0' ],
+55 silly audit   '@socket.io/component-emitter': [ '3.1.2' ],
+55 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+55 silly audit   '@szmarczak/http-timer': [ '4.0.6' ],
+55 silly audit   '@types/babel__core': [ '7.20.5' ],
+55 silly audit   '@types/babel__generator': [ '7.27.0' ],
+55 silly audit   '@types/babel__template': [ '7.4.4' ],
+55 silly audit   '@types/babel__traverse': [ '7.28.0' ],
+55 silly audit   '@types/cacheable-request': [ '6.0.3' ],
+55 silly audit   '@types/estree': [ '1.0.8' ],
+55 silly audit   '@types/http-cache-semantics': [ '4.2.0' ],
+55 silly audit   '@types/keyv': [ '3.1.4' ],
+55 silly audit   '@types/node': [ '20.19.33' ],
+55 silly audit   '@types/react': [ '19.2.14' ],
+55 silly audit   '@types/react-dom': [ '19.2.3' ],
+55 silly audit   '@types/responselike': [ '1.0.3' ],
+55 silly audit   '@types/stats.js': [ '0.17.4' ],
+55 silly audit   '@types/three': [ '0.158.3' ],
+55 silly audit   '@types/webxr': [ '0.5.24' ],
+55 silly audit   '@types/yauzl': [ '2.10.3' ],
+55 silly audit   '@vitejs/plugin-react': [ '4.7.0' ],
+55 silly audit   'ansi-regex': [ '5.0.1' ],
+55 silly audit   'ansi-styles': [ '4.3.0' ],
+55 silly audit   asynckit: [ '0.4.0' ],
+55 silly audit   axios: [ '1.13.5' ],
+55 silly audit   'baseline-browser-mapping': [ '2.9.19' ],
+55 silly audit   boolean: [ '3.2.0' ],
+55 silly audit   browserslist: [ '4.28.1' ],
+55 silly audit   'buffer-crc32': [ '0.2.13' ],
+55 silly audit   'cacheable-lookup': [ '5.0.4' ],
+55 silly audit   'cacheable-request': [ '7.0.4' ],
+55 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+55 silly audit   'caniuse-lite': [ '1.0.30001769' ],
+55 silly audit   chalk: [ '4.1.2' ],
+55 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+55 silly audit   cliui: [ '8.0.1' ],
+55 silly audit   'clone-response': [ '1.0.3' ],
+55 silly audit   'color-convert': [ '2.0.1' ],
+55 silly audit   'color-name': [ '1.1.4' ],
+55 silly audit   'combined-stream': [ '1.0.8' ],
+55 silly audit   concurrently: [ '9.2.1' ],
+55 silly audit   'convert-source-map': [ '2.0.0' ],
+55 silly audit   'cross-env': [ '7.0.3' ],
+55 silly audit   'cross-spawn': [ '7.0.6' ],
+55 silly audit   csstype: [ '3.2.3' ],
+55 silly audit   debug: [ '4.4.3' ],
+55 silly audit   'decompress-response': [ '6.0.0' ],
+55 silly audit   'mimic-response': [ '3.1.0', '1.0.1' ],
+55 silly audit   'defer-to-connect': [ '2.0.1' ],
+55 silly audit   'define-data-property': [ '1.1.4' ],
+55 silly audit   'define-properties': [ '1.2.1' ],
+55 silly audit   'delayed-stream': [ '1.0.0' ],
+55 silly audit   'detect-node': [ '2.1.0' ],
+55 silly audit   'dunder-proto': [ '1.0.1' ],
+55 silly audit   electron: [ '33.4.11' ],
+55 silly audit   'electron-to-chromium': [ '1.5.286' ],
+55 silly audit   'emoji-regex': [ '8.0.0' ],
+55 silly audit   'end-of-stream': [ '1.4.5' ],
+55 silly audit   'engine.io-client': [ '6.6.4' ],
+55 silly audit   'engine.io-parser': [ '5.2.3' ],
+55 silly audit   'env-paths': [ '2.2.1' ],
+55 silly audit   'es-define-property': [ '1.0.1' ],
+55 silly audit   'es-errors': [ '1.3.0' ],
+55 silly audit   'es-object-atoms': [ '1.1.1' ],
+55 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+55 silly audit   'es6-error': [ '4.1.1' ],
+55 silly audit   esbuild: [ '0.25.12' ],
+55 silly audit   escalade: [ '3.2.0' ],
+55 silly audit   'escape-string-regexp': [ '4.0.0' ],
+55 silly audit   'extract-zip': [ '2.0.1' ],
+55 silly audit   'fd-slicer': [ '1.1.0' ],
+55 silly audit   fdir: [ '6.5.0' ],
+55 silly audit   fflate: [ '0.6.10' ],
+55 silly audit   'follow-redirects': [ '1.15.11' ],
+55 silly audit   'form-data': [ '4.0.5' ],
+55 silly audit   'fs-extra': [ '8.1.0' ],
+55 silly audit   fsevents: [ '2.3.3' ],
+55 silly audit   'function-bind': [ '1.1.2' ],
+55 silly audit   gensync: [ '1.0.0-beta.2' ],
+55 silly audit   'get-caller-file': [ '2.0.5' ],
+55 silly audit   'get-intrinsic': [ '1.3.0' ],
+55 silly audit   'get-proto': [ '1.0.1' ],
+55 silly audit   'get-stream': [ '5.2.0' ],
+55 silly audit   'global-agent': [ '3.0.0' ],
+55 silly audit   semver: [ '7.7.4', '6.3.1' ],
+55 silly audit   globalthis: [ '1.0.4' ],
+55 silly audit   gopd: [ '1.2.0' ],
+55 silly audit   got: [ '11.8.6' ],
+55 silly audit   'graceful-fs': [ '4.2.11' ],
+55 silly audit   'has-flag': [ '4.0.0' ],
+55 silly audit   'has-property-descriptors': [ '1.0.2' ],
+55 silly audit   'has-symbols': [ '1.1.0' ],
+55 silly audit   'has-tostringtag': [ '1.0.2' ],
+55 silly audit   hasown: [ '2.0.2' ],
+55 silly audit   'http-cache-semantics': [ '4.2.0' ],
+55 silly audit   'http2-wrapper': [ '1.0.3' ],
+55 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+55 silly audit   isexe: [ '2.0.0' ],
+55 silly audit   joi: [ '18.0.2' ],
+55 silly audit   'js-tokens': [ '4.0.0' ],
+55 silly audit   jsesc: [ '3.1.0' ],
+55 silly audit   'json-buffer': [ '3.0.1' ],
+55 silly audit   'json-stringify-safe': [ '5.0.1' ],
+55 silly audit   json5: [ '2.2.3' ],
+55 silly audit   jsonfile: [ '4.0.0' ],
+55 silly audit   keyv: [ '4.5.4' ],
+55 silly audit   lodash: [ '4.17.23' ],
+55 silly audit   'lowercase-keys': [ '2.0.0' ],
+55 silly audit   'lru-cache': [ '5.1.1' ],
+55 silly audit   matcher: [ '3.0.0' ],
+55 silly audit   'math-intrinsics': [ '1.1.0' ],
+55 silly audit   meshoptimizer: [ '0.18.1' ],
+55 silly audit   'mime-db': [ '1.52.0' ],
+55 silly audit   'mime-types': [ '2.1.35' ],
+55 silly audit   minimist: [ '1.2.8' ],
+55 silly audit   ms: [ '2.1.3' ],
+55 silly audit   nanoid: [ '3.3.11' ],
+55 silly audit   'node-releases': [ '2.0.27' ],
+55 silly audit   'normalize-url': [ '6.1.0' ],
+55 silly audit   'object-keys': [ '1.1.1' ],
+55 silly audit   once: [ '1.4.0' ],
+55 silly audit   'p-cancelable': [ '2.1.1' ],
+55 silly audit   'path-key': [ '3.1.1' ],
+55 silly audit   pend: [ '1.2.0' ],
+55 silly audit   picocolors: [ '1.1.1' ],
+55 silly audit   picomatch: [ '4.0.3' ],
+55 silly audit   postcss: [ '8.5.6' ],
+55 silly audit   progress: [ '2.0.3' ],
+55 silly audit   'proxy-from-env': [ '1.1.0' ],
+55 silly audit   pump: [ '3.0.3' ],
+55 silly audit   'quick-lru': [ '5.1.1' ],
+55 silly audit   react: [ '19.2.4' ],
+55 silly audit   'react-dom': [ '19.2.4' ],
+55 silly audit   'react-refresh': [ '0.17.0' ],
+55 silly audit   'require-directory': [ '2.1.1' ],
+55 silly audit   'resolve-alpn': [ '1.2.1' ],
+55 silly audit   responselike: [ '2.0.1' ],
+55 silly audit   roarr: [ '2.15.4' ],
+55 silly audit   rollup: [ '4.57.1' ],
+55 silly audit   rxjs: [ '7.8.2' ],
+55 silly audit   scheduler: [ '0.27.0' ],
+55 silly audit   'semver-compare': [ '1.0.0' ],
+55 silly audit   'serialize-error': [ '7.0.1' ],
+55 silly audit   'shebang-command': [ '2.0.0' ],
+55 silly audit   'shebang-regex': [ '3.0.0' ],
+55 silly audit   'shell-quote': [ '1.8.3' ],
+55 silly audit   'socket.io-client': [ '4.8.3' ],
+55 silly audit   'socket.io-parser': [ '4.2.5' ],
+55 silly audit   'source-map-js': [ '1.2.1' ],
+55 silly audit   'sprintf-js': [ '1.1.3' ],
+55 silly audit   'string-width': [ '4.2.3' ],
+55 silly audit   'strip-ansi': [ '6.0.1' ],
+55 silly audit   sumchecker: [ '3.0.1' ],
+55 silly audit   three: [ '0.158.0' ],
+55 silly audit   tinyglobby: [ '0.2.15' ],
+55 silly audit   'tree-kill': [ '1.2.2' ],
+55 silly audit   tslib: [ '2.8.1' ],
+55 silly audit   'type-fest': [ '0.13.1' ],
+55 silly audit   typescript: [ '5.9.3' ],
+55 silly audit   'undici-types': [ '6.21.0' ],
+55 silly audit   universalify: [ '0.1.2' ],
+55 silly audit   'update-browserslist-db': [ '1.2.3' ],
+55 silly audit   vite: [ '6.4.1' ],
+55 silly audit   'wait-on': [ '8.0.5' ],
+55 silly audit   which: [ '2.0.2' ],
+55 silly audit   'wrap-ansi': [ '7.0.0' ],
+55 silly audit   wrappy: [ '1.0.2' ],
+55 silly audit   ws: [ '8.18.3' ],
+55 silly audit   'xmlhttprequest-ssl': [ '2.1.2' ],
+55 silly audit   y18n: [ '5.0.8' ],
+55 silly audit   yallist: [ '3.1.1' ],
+55 silly audit   yargs: [ '17.7.2' ],
+55 silly audit   'yargs-parser': [ '21.1.1' ],
+55 silly audit   yauzl: [ '2.10.0' ]
+55 silly audit }
+56 http cache @types/stats.js@https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz 1ms (cache hit)
+57 http cache @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.57.1.tgz 0ms (cache hit)
+58 http cache @types/webxr@https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz 0ms (cache hit)
+59 http cache @hapi/tlds@https://registry.npmjs.org/@hapi/tlds/-/tlds-1.1.5.tgz 0ms (cache hit)
+60 http cache @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz 0ms (cache hit)
+61 http cache @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz 0ms (cache hit)
+62 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 0ms (cache hit)
+63 http cache @babel/helper-plugin-utils@https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz 0ms (cache hit)
+64 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+65 http cache wait-on@https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz 0ms (cache hit)
+66 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+67 http cache vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 0ms (cache hit)
+68 http cache tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 0ms (cache hit)
+69 http cache three@https://registry.npmjs.org/three/-/three-0.158.0.tgz 0ms (cache hit)
+70 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+71 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+72 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.57.1.tgz 0ms (cache hit)
+73 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 0ms (cache hit)
+74 http cache react@https://registry.npmjs.org/react/-/react-19.2.4.tgz 0ms (cache hit)
+75 http cache pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz 0ms (cache hit)
+76 http cache proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 0ms (cache hit)
+77 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 0ms (cache hit)
+78 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+79 http cache meshoptimizer@https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz 0ms (cache hit)
+80 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz 0ms (cache hit)
+81 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+82 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+83 http cache joi@https://registry.npmjs.org/joi/-/joi-18.0.2.tgz 0ms (cache hit)
+84 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 0ms (cache hit)
+85 http cache fflate@https://registry.npmjs.org/fflate/-/fflate-0.6.10.tgz 0ms (cache hit)
+86 http cache extract-zip@https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz 0ms (cache hit)
+87 http cache @types/three@https://registry.npmjs.org/@types/three/-/three-0.158.3.tgz 0ms (cache hit)
+88 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 0ms (cache hit)
+89 http cache electron@https://registry.npmjs.org/electron/-/electron-33.4.11.tgz 0ms (cache hit)
+90 http cache concurrently@https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz 0ms (cache hit)
+91 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+92 http cache cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 0ms (cache hit)
+93 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz 0ms (cache hit)
+94 http cache axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz 0ms (cache hit)
+95 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 0ms (cache hit)
+96 silly tarball no local data for @types/stats.js@https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz. Extracting by manifest.
+97 silly tarball no local data for @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.57.1.tgz. Extracting by manifest.
+98 silly tarball no local data for @types/webxr@https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz. Extracting by manifest.
+99 silly tarball no local data for @hapi/tlds@https://registry.npmjs.org/@hapi/tlds/-/tlds-1.1.5.tgz. Extracting by manifest.
+100 silly tarball no local data for @babel/plugin-transform-react-jsx-source@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz. Extracting by manifest.
+101 silly tarball no local data for @babel/plugin-transform-react-jsx-self@https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz. Extracting by manifest.
+102 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz. Extracting by manifest.
+103 silly tarball no local data for @babel/helper-plugin-utils@https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz. Extracting by manifest.
+104 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+105 silly tarball no local data for wait-on@https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz. Extracting by manifest.
+106 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+107 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz. Extracting by manifest.
+108 silly tarball no local data for tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz. Extracting by manifest.
+109 silly tarball no local data for three@https://registry.npmjs.org/three/-/three-0.158.0.tgz. Extracting by manifest.
+110 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+111 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+112 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.57.1.tgz. Extracting by manifest.
+113 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz. Extracting by manifest.
+114 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.2.4.tgz. Extracting by manifest.
+115 silly tarball no local data for pump@https://registry.npmjs.org/pump/-/pump-3.0.3.tgz. Extracting by manifest.
+116 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+117 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz. Extracting by manifest.
+118 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+119 silly tarball no local data for meshoptimizer@https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz. Extracting by manifest.
+120 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz. Extracting by manifest.
+121 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+122 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+123 silly tarball no local data for joi@https://registry.npmjs.org/joi/-/joi-18.0.2.tgz. Extracting by manifest.
+124 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz. Extracting by manifest.
+125 silly tarball no local data for fflate@https://registry.npmjs.org/fflate/-/fflate-0.6.10.tgz. Extracting by manifest.
+126 silly tarball no local data for extract-zip@https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz. Extracting by manifest.
+127 silly tarball no local data for @types/three@https://registry.npmjs.org/@types/three/-/three-0.158.3.tgz. Extracting by manifest.
+128 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+129 silly tarball no local data for electron@https://registry.npmjs.org/electron/-/electron-33.4.11.tgz. Extracting by manifest.
+130 silly tarball no local data for concurrently@https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz. Extracting by manifest.
+131 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz. Extracting by manifest.
+132 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz. Extracting by manifest.
+133 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz. Extracting by manifest.
+134 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.13.5.tgz. Extracting by manifest.
+135 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.4.tgz. Extracting by manifest.
+136 http fetch GET 200 https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 152ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 154ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 154ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/wait-on/-/wait-on-8.0.5.tgz 155ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 197ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.2.4.tgz 285ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 288ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 331ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/pump/-/pump-3.0.3.tgz 331ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-4.57.1.tgz 333ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 359ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 365ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/meshoptimizer/-/meshoptimizer-0.18.1.tgz 370ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/@types/webxr/-/webxr-0.5.24.tgz 414ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz 417ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 416ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@types/stats.js/-/stats.js-0.17.4.tgz 434ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/@babel/plugin-transform-react-jsx-self/-/plugin-transform-react-jsx-self-7.27.1.tgz 447ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.11.tgz 447ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz 460ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.23.tgz 489ms (cache miss)
+157 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 529ms
+158 silly audit report {
+158 silly audit report   axios: [
+158 silly audit report     {
+158 silly audit report       id: 1118607,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-q8qp-cvcw-x6jj',
+158 silly audit report       title: 'Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1119404,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-fvcv-3m26-pcqx',
+158 silly audit report       title: 'Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1119667,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-pjwm-pj3p-43mv',
+158 silly audit report       title: "axios's shouldBypassProxy does not recognize IPv4-mapped IPv6 addresses, allowing NO_PROXY bypass (incomplete fix for CVE-2025-62718)",
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1119669,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-898c-q2cr-xwhg',
+158 silly audit report       title: 'axios has DoS & Header Injection via Prototype Pollution Read-Side Gadgets in axios merge functions',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1119674,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-3g43-6gmg-66jw',
+158 silly audit report       title: 'axios Vulnerable to Credential Theft and Response Hijacking via Prototype Pollution Gadget in Config Merge',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1119675,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-35jp-ww65-95wh',
+158 silly audit report       title: 'axios Vulnerable to Full Man-in-the-Middle via Prototype Pollution Gadget in `config.proxy`',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1120073,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-hfxv-24rg-xrqf',
+158 silly audit report       title: 'Axios: Regular Expression Denial of Service (ReDoS) via Cookie Name Injection',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1120074,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-777c-7fjr-54vf',
+158 silly audit report       title: 'Allocation of Resources Without Limits or Throttling in Axios',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.7.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1120076,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-p92q-9vqr-4j8v',
+158 silly audit report       title: 'Axios: Proxy-Authorization Credential Leak to Origin Server Across HTTP-to-HTTPS Redirect in Axios Node.js HTTP Adapter',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1120078,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-j5f8-grm9-p9fc',
+158 silly audit report       title: 'Axios: Proxy-Authorization header leaks to redirect target when proxy is re-evaluated to direct connection',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.16.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116673,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-3p68-rc4w-qgx5',
+158 silly audit report       title: 'Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117574,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-w9j2-pvgh-6h63',
+158 silly audit report       title: 'Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117576,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-pmwg-cvhr-8vh7',
+158 silly audit report       title: 'Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117577,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-3w6x-2g7m-8v23',
+158 silly audit report       title: 'Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.2',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117580,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-xhjh-pmcv-23jw',
+158 silly audit report       title: 'Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams',
+158 silly audit report       severity: 'low',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117581,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-445q-vr5w-6q77',
+158 silly audit report       title: 'Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117583,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-m7pr-hjqh-92cm',
+158 silly audit report       title: 'Axios: no_proxy bypass via IP alias allows SSRF',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117585,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-62hf-57xw-28j9',
+158 silly audit report       title: 'Axios: unbounded recursion in toFormData causes DoS via deeply nested request data',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117587,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-5c9x-8gcm-mpgx',
+158 silly audit report       title: "Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0",
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117589,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-vf2m-468p-8v99',
+158 silly audit report       title: 'Axios: HTTP adapter streamed responses bypass maxContentLength',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117591,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-pf86-5x62-jrwf',
+158 silly audit report       title: 'Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117593,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-6chq-wfr3-2hj9',
+158 silly audit report       title: 'Axios: Header Injection via Prototype Pollution',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117595,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-xx6v-rp6x-q39c',
+158 silly audit report       title: 'Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=1.0.0 <1.15.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   electron: [
+158 silly audit report     {
+158 silly audit report       id: 1107272,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-vmqv-hx8q-j7mg',
+158 silly audit report       title: 'Electron has ASAR Integrity Bypass via resource modification',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<35.7.5',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116041,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-5rqw-r77c-jp79',
+158 silly audit report       title: 'Electron: AppleScript injection in app.moveToApplicationsFolder on macOS',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116045,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-xj5x-m3f3-5x3h',
+158 silly audit report       title: 'Electron: Service worker can spoof executeJavaScript IPC replies',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116049,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-r5p7-gp4j-qhrx',
+158 silly audit report       title: 'Electron: Incorrect origin passed to permission request handler for iframe requests',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116053,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-3c8v-cfp5-9885',
+158 silly audit report       title: 'Electron: Out-of-bounds read in second-instance IPC on macOS and Linux',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116057,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-xwr5-m59h-vwqr',
+158 silly audit report       title: 'Electron: nodeIntegrationInWorker not correctly scoped in shared renderer processes',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116060,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-532v-xpq5-8h95',
+158 silly audit report       title: 'Electron: Use-after-free in offscreen child window paint callback',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '<39.8.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116064,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-mwmh-mq4g-g6gr',
+158 silly audit report       title: 'Electron: Registry key path injection in app.setAsDefaultProtocolClient on Windows',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116068,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-9w97-2464-8783',
+158 silly audit report       title: 'Electron: Use-after-free in download save dialog callback',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116072,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-8337-3p73-46f4',
+158 silly audit report       title: 'Electron: Use-after-free in WebContents fullscreen, pointer-lock, and keyboard-lock permission callbacks',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116076,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-jjp3-mq3x-295m',
+158 silly audit report       title: 'Electron: Use-after-free in PowerMonitor on Windows and macOS',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116084,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-jfqx-fxh3-c62j',
+158 silly audit report       title: 'Electron: Unquoted executable path in app.setLoginItemSettings on Windows',
+158 silly audit report       severity: 'low',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116088,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-4p4r-m79c-wq3v',
+158 silly audit report       title: 'Electron: HTTP Response Header Injection in custom protocol handlers and webRequest',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116092,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-9899-m83m-qhpj',
+158 silly audit report       title: 'Electron: USB device selection not validated against filtered device list',
+158 silly audit report       severity: 'low',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116111,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-8x5q-pvf5-64mp',
+158 silly audit report       title: 'Electron: Use-after-free in offscreen shared texture release() callback',
+158 silly audit report       severity: 'low',
+158 silly audit report       vulnerable_versions: '>=33.0.0-alpha.1 <39.8.5',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116259,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-f37v-82c4-4x64',
+158 silly audit report       title: 'Electron: Crash in clipboard.readImage() on malformed clipboard image data',
+158 silly audit report       severity: 'low',
+158 silly audit report       vulnerable_versions: '<39.8.5',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116320,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-f3pv-wv63-48x8',
+158 silly audit report       title: "Electron: Named window.open targets not scoped to the opener's browsing context",
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<39.8.5',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1117459,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-9wfr-w7mm-pc7f',
+158 silly audit report       title: 'Electron: Renderer command-line switch injection via undocumented commandLineSwitches webPreference',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '<38.8.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   'follow-redirects': [
+158 silly audit report     {
+158 silly audit report       id: 1116560,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-r4q5-vmmm-2653',
+158 silly audit report       title: 'follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<=1.15.11',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   lodash: [
+158 silly audit report     {
+158 silly audit report       id: 1115806,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-r5fr-rjxr-66jc',
+158 silly audit report       title: 'lodash vulnerable to Code Injection via `_.template` imports key names',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.23',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1115810,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-f23m-r3pf-42rh',
+158 silly audit report       title: 'lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<=4.17.23',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   picomatch: [
+158 silly audit report     {
+158 silly audit report       id: 1115551,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-3v7f-55p6-f55p',
+158 silly audit report       title: 'Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.4',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1115554,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-c2c7-rcm5-vvqj',
+158 silly audit report       title: 'Picomatch has a ReDoS vulnerability via extglob quantifiers',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=4.0.0 <4.0.4',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   postcss: [
+158 silly audit report     {
+158 silly audit report       id: 1117015,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+158 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<8.5.10',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   rollup: [
+158 silly audit report     {
+158 silly audit report       id: 1113515,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-mw96-cpmx-2vgc',
+158 silly audit report       title: 'Rollup 4 has Arbitrary File Write via Path Traversal',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=4.0.0 <4.59.0',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   'socket.io-parser': [
+158 silly audit report     {
+158 silly audit report       id: 1115154,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-677m-j7p3-52f9',
+158 silly audit report       title: 'socket.io allows an unbounded number of binary attachments',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=4.0.0 <4.2.6',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   vite: [
+158 silly audit report     {
+158 silly audit report       id: 1116229,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+158 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '<=6.4.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     },
+158 silly audit report     {
+158 silly audit report       id: 1116234,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-p9ff-h696-f583',
+158 silly audit report       title: 'Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket',
+158 silly audit report       severity: 'high',
+158 silly audit report       vulnerable_versions: '>=6.0.0 <=6.4.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ],
+158 silly audit report   ws: [
+158 silly audit report     {
+158 silly audit report       id: 1119108,
+158 silly audit report       url: 'https://github.com/advisories/GHSA-58qx-3vcg-4xpx',
+158 silly audit report       title: 'ws: Uninitialized memory disclosure',
+158 silly audit report       severity: 'moderate',
+158 silly audit report       vulnerable_versions: '>=8.0.0 <8.20.1',
+158 silly audit report       cwe: [Array],
+158 silly audit report       cvss: [Object]
+158 silly audit report     }
+158 silly audit report   ]
+158 silly audit report }
+159 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+160 silly packumentCache corgi:https://registry.npmjs.org/electron cache-miss
+161 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects cache-miss
+162 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+163 silly packumentCache corgi:https://registry.npmjs.org/picomatch cache-miss
+164 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+165 silly packumentCache corgi:https://registry.npmjs.org/rollup cache-miss
+166 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser cache-miss
+167 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+168 silly packumentCache corgi:https://registry.npmjs.org/ws cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/electron/-/electron-33.4.11.tgz 525ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 525ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/fflate/-/fflate-0.6.10.tgz 526ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/joi/-/joi-18.0.2.tgz 536ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 543ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.4.tgz 602ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/concurrently/-/concurrently-9.2.1.tgz 613ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/@hapi/tlds/-/tlds-1.1.5.tgz 647ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.0.tgz 653ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 684ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/picomatch 175ms (cache miss)
+180 silly packumentCache corgi:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+181 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-7.0.3.tgz 770ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/postcss 304ms (cache miss)
+183 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/axios 371ms (cache miss)
+185 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/follow-redirects 395ms (cache miss)
+187 silly packumentCache corgi:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/lodash 446ms (cache miss)
+189 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:undefined disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.57.1.tgz 1012ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/@babel/plugin-transform-react-jsx-source/-/plugin-transform-react-jsx-source-7.27.1.tgz 1089ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/socket.io-parser 612ms (cache miss)
+193 silly packumentCache corgi:https://registry.npmjs.org/socket.io-parser set size:undefined disposed:false
+194 http fetch GET 200 https://registry.npmjs.org/electron 626ms (cache miss)
+195 silly packumentCache corgi:https://registry.npmjs.org/electron set size:undefined disposed:false
+196 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.9.19.tgz 1433ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/ws 926ms (cache miss)
+198 silly packumentCache corgi:https://registry.npmjs.org/ws set size:undefined disposed:false
+199 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz 1447ms (cache miss)
+200 http fetch GET 200 https://registry.npmjs.org/rollup 941ms (cache miss)
+201 silly packumentCache corgi:https://registry.npmjs.org/rollup set size:undefined disposed:false
+202 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.13.5.tgz 1482ms (cache miss)
+203 http fetch GET 200 https://registry.npmjs.org/@types/three/-/three-0.158.3.tgz 1549ms (cache miss)
+204 http fetch GET 200 https://registry.npmjs.org/vite 1090ms (cache miss)
+205 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+206 silly packumentCache corgi:https://registry.npmjs.org/wait-on cache-miss
+207 http fetch GET 200 https://registry.npmjs.org/wait-on 411ms (cache miss)
+208 silly packumentCache corgi:https://registry.npmjs.org/wait-on set size:undefined disposed:false
+209 silly packumentCache corgi:https://registry.npmjs.org/fdir cache-miss
+210 silly packumentCache corgi:https://registry.npmjs.org/tinyglobby cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/fdir 77ms (cache miss)
+212 silly packumentCache corgi:https://registry.npmjs.org/fdir set size:undefined disposed:false
+213 http fetch GET 200 https://registry.npmjs.org/tinyglobby 311ms (cache miss)
+214 silly packumentCache corgi:https://registry.npmjs.org/tinyglobby set size:undefined disposed:false
+215 silly packumentCache corgi:https://registry.npmjs.org/socket.io-client cache-miss
+216 http fetch GET 200 https://registry.npmjs.org/three/-/three-0.158.0.tgz 2453ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 2721ms (cache miss)
+218 info run electron@33.4.11 postinstall node_modules/electron node install.js
+219 info run esbuild@0.25.12 postinstall node_modules/esbuild node install.js
+220 http fetch GET 200 https://registry.npmjs.org/socket.io-client 302ms (cache miss)
+221 silly packumentCache corgi:https://registry.npmjs.org/socket.io-client set size:undefined disposed:false
+222 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react cache-miss
+223 info run electron@33.4.11 postinstall { code: 0, signal: null }
+224 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-react 696ms (cache miss)
+225 silly packumentCache corgi:https://registry.npmjs.org/@vitejs%2fplugin-react set size:undefined disposed:false
+226 silly packumentCache corgi:https://registry.npmjs.org/engine.io-client cache-miss
+227 info run esbuild@0.25.12 postinstall { code: 0, signal: null }
+228 http fetch GET 200 https://registry.npmjs.org/engine.io-client 359ms (cache miss)
+229 silly packumentCache corgi:https://registry.npmjs.org/engine.io-client set size:undefined disposed:false
+230 silly CHANGE node_modules/global-agent/node_modules/semver
+231 silly CHANGE node_modules/@types/three
+232 silly CHANGE node_modules/@types/webxr
+233 silly CHANGE node_modules/@types/stats.js
+234 silly CHANGE node_modules/@rollup/rollup-darwin-arm64
+235 silly CHANGE node_modules/@hapi/tlds
+236 silly CHANGE node_modules/@babel/plugin-transform-react-jsx-source
+237 silly CHANGE node_modules/@babel/plugin-transform-react-jsx-self
+238 silly CHANGE node_modules/@babel/parser
+239 silly CHANGE node_modules/@babel/helper-plugin-utils
+240 silly CHANGE node_modules/which
+241 silly CHANGE node_modules/wait-on
+242 silly CHANGE node_modules/update-browserslist-db
+243 silly CHANGE node_modules/vite
+244 silly CHANGE node_modules/typescript
+245 silly CHANGE node_modules/tree-kill
+246 silly CHANGE node_modules/three
+247 silly CHANGE node_modules/semver
+248 silly CHANGE node_modules/rollup
+249 silly CHANGE node_modules/react-dom
+250 silly CHANGE node_modules/react
+251 silly CHANGE node_modules/pump
+252 silly CHANGE node_modules/proxy-from-env
+253 silly CHANGE node_modules/postcss
+254 silly CHANGE node_modules/nanoid
+255 silly CHANGE node_modules/meshoptimizer
+256 silly CHANGE node_modules/lodash
+257 silly CHANGE node_modules/json5
+258 silly CHANGE node_modules/jsesc
+259 silly CHANGE node_modules/joi
+260 silly CHANGE node_modules/follow-redirects
+261 silly CHANGE node_modules/fflate
+262 silly CHANGE node_modules/extract-zip
+263 silly CHANGE node_modules/esbuild
+264 silly CHANGE node_modules/electron
+265 silly CHANGE node_modules/cross-env
+266 silly CHANGE node_modules/concurrently
+267 silly CHANGE node_modules/browserslist
+268 silly CHANGE node_modules/baseline-browser-mapping
+269 silly CHANGE node_modules/axios
+270 verbose cwd /Users/arnav/Documents/DristiOS-main/visualizer
+271 verbose os Darwin 25.2.0
+272 verbose node v24.16.0
+273 verbose npm  v11.13.0
+274 verbose exit 0
+275 info ok
